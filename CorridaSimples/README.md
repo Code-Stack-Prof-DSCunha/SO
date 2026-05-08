@@ -31,7 +31,8 @@ Você pode utilizar qualquer editor de texto ou IDE. Sugestões:
 *   Ou até o bom e velho **Notepad++ / Vim**.
 
 ### 2. Compilar
-Para transformar o código-fonte (`.java`) em bytecode (`.class`), utilize o compilador `javac`. No terminal, navegue até a pasta onde estão os arquivos e execute:
+Para transformar o código-fonte (`.java`) em bytecode (`.class`), utilize o compilador `javac`.
+No terminal, navegue até a pasta onde estão os arquivos e execute:
 
 ```bash
 javac NomeDoArquivo.java
@@ -80,12 +81,3 @@ java -cp bin Main
 
 Desenvolvido por [Prof, Douglas Cunha](https://github.com/dscunha)
 ```
-
----
-
-### Algumas dicas extras para o seu repositório:
-
-*   **Arquivo .gitignore:** Se você for subir para o GitHub, lembre-se de adicionar um arquivo `.gitignore` para ignorar os arquivos `.class`. Ninguém gosta de baixar arquivos binários compilados; o ideal é que cada um compile na sua própria máquina.
-*   **Documentação Javadoc:** Se o seu código tiver muitos métodos, você pode gerar uma documentação automática usando o comando `javadoc`.
-
-Qual é o nível de complexidade desse código que você está desenvolvendo? Se houver muitos pacotes, posso te ajudar a ajustar os comandos de compilação!
